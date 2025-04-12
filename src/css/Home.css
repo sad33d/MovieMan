@@ -1,0 +1,137 @@
+.home {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-form {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-input {
+  flex: 1 1 200px;
+  min-width: 180px;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 25px;
+  background-color: #eaeaea;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #030303;
+}
+
+.search-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #ff0000;
+  color: white;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button .search-icon {
+  display: none;
+}
+
+.search-button:hover {
+  background-color: #8a0000;
+  color: #ffffff;
+}
+
+/* Movie grid */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+/* Optional min width for individual cards */
+.movie-card {
+  width: 100%;
+  min-width: 250px;
+  max-width: 100%;
+}
+
+/* Responsive tweaks */
+@media (max-width: 1024px) {
+  .movies-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .movies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 639px) {
+
+  /* Adjust search form layout for mobile */
+  .search-form {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 3rem rem;
+  }
+
+  /* Adjust the search input width */
+  .search-input {
+    font-size: 1rem;
+    width: 80%;
+    /* Make the search input take most of the space */
+  }
+
+  /* Make the search button smaller and round, with only the icon */
+  .search-button {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #ff0000;
+    /* Button color */
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  /* Hide search button text and show only the icon */
+  .search-button .search-text {
+    display: none;
+  }
+
+  .search-button .search-icon {
+    display: inline;
+  }
+
+  /* Adjust movie grid layout for mobile */
+  .movies-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
