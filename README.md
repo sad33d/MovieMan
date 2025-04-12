@@ -1,12 +1,36 @@
-# React + Vite
+# 🎬 Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek React + Vite-powered movie discovery app that uses the Movie Database API to display trending movies, search for your favorites, and maintain a list of movies you love. Built for smooth performance, responsive design, and a great user experience.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search movies by title using The Movie Database (TMDb) API
+- 🎞️ View popular/trending movie listings
+- ❤️ Add/remove movies to your personal favorites list
+- 📱 Fully responsive layout (mobile-first)
+- ⚡ Built with React + Vite for fast performance
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hosted on Netlify: [Click here to view live site](https://your-netlify-link.netlify.app)  
+*(replace with your actual Netlify link)*
+
+## 🖼️ Screenshots
+
+![Homepage](screenshots/home.png)
+![Search](screenshots/search.png)
+![Favorites](screenshots/favorites.png)
+
+## 🔧 Tech Stack
+
+- **Frontend**: React, Vite
+- **API**: The Movie Database (TMDb) API
+- **Styling**: CSS / Tailwind (if used)
+- **Hosting**: Netlify
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/movie-explorer.git
+cd movie-explorer
+npm install
