@@ -12,14 +12,9 @@ A sleek React + Vite-powered movie discovery app that uses the Movie Database AP
 
 ## 🚀 Live Demo
 
-Hosted on Netlify: [Click here to view live site](https://your-netlify-link.netlify.app)  
+Hosted on Netlify: [Click here to view live site](https://themovieman.netlify.app/)  
 *(replace with your actual Netlify link)*
 
-## 🖼️ Screenshots
-
-![Homepage](screenshots/home.png)
-![Search](screenshots/search.png)
-![Favorites](screenshots/favorites.png)
 
 ## 🔧 Tech Stack
 
@@ -31,6 +26,6 @@ Hosted on Netlify: [Click here to view live site](https://your-netlify-link.netl
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/movie-explorer.git
+git clone https://github.com/sad33d/MovieMan.git
 cd movie-explorer
 npm install
